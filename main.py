@@ -60,6 +60,6 @@ def predict(features: Features):
     probability = model.predict_proba(row)
     
     return {
-        "predicted_room_type" : prediction[0],
-        "probability" : probability.tolist()[0]
+        "Predicted_room_type" : prediction[0],
+        "Probability" : probability.tolist()[0]
     }
